@@ -2,9 +2,13 @@
   "name": "node-ts-starter",
   "version": "0.0.1",
   "description": "Boilerplate for node.ts project",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --project tsconfig.json",
+    "build:watch": "tsc --project tsconfig.json --watch",
+    "start": "ts-node ./src/index.ts",
+    "start:dev": "nodemon"
   },
   "keywords": [],
   "author": "Andriy Horen",
@@ -13,7 +17,12 @@
     "typescript": "^5.4.3"
   },
   "devDependencies": {
+    "@swc/core": "^1.4.11",
+    "@swc/helpers": "^0.5.8",
     "@types/node": "^20.11.30",
-    "prettier": "3.2.5"
+    "nodemon": "^3.1.0",
+    "prettier": "3.2.5",
+    "regenerator-runtime": "^0.14.1",
+    "ts-node": "^10.9.2"
   }
 }
