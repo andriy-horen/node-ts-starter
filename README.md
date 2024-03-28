@@ -1,2 +1,3 @@
 # node-ts-starter
-Simple boilerplate for node.ts projects
+
+Boilerplate for node.ts project
