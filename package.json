@@ -1,0 +1,19 @@
+{
+  "name": "node-ts-starter",
+  "version": "1.0.0",
+  "description": "Boilerplate for node.ts projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andriy Horen",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "prettier": "3.2.5"
+  }
+}
