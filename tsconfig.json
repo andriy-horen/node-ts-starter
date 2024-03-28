@@ -1,5 +1,5 @@
 {
-  // enable fast compiler for ts-node
+  // enables SWC compiler for dev builds only
   "ts-node": {
     "swc": true
   },
