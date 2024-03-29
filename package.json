@@ -8,7 +8,8 @@
     "build": "tsc --project tsconfig.json",
     "build:watch": "tsc --project tsconfig.json --watch",
     "start": "ts-node -r tsconfig-paths/register ./src/index.ts",
-    "start:dev": "nodemon"
+    "start:dev": "nodemon",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Andriy Horen",
@@ -19,10 +20,13 @@
   "devDependencies": {
     "@swc/core": "^1.4.11",
     "@swc/helpers": "^0.5.8",
+    "@types/jest": "^29.5.12",
     "@types/node": "^20.11.30",
+    "jest": "^29.7.0",
     "nodemon": "^3.1.0",
     "prettier": "3.2.5",
     "regenerator-runtime": "^0.14.1",
+    "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0"
   }
