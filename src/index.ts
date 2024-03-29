@@ -1,4 +1,4 @@
-export async function main() {
+export function main() {
   console.log('it works!');
 }
 
