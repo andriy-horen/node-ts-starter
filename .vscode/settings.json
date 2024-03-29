@@ -1,3 +1,4 @@
 {
+  // TODO: remove the configuration when ESLint is upgraded to version 9.x.
   "eslint.experimental.useFlatConfig": true
 }
